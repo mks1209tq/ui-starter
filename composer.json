@@ -1,10 +1,10 @@
 {
-    "name": "ghayas/ui-starter",
+    "name": "mks1209tq/ui-starter",
     "description": "test description",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Ghayas\\UiStarter\\": "src/"
+            "Mks1209tq\\UiStarter\\": "src/"
         }
     },
     "require": {}
