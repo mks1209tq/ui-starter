@@ -12,5 +12,12 @@
             "name": "Mks1209tq"
         }
     ],
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mks1209tq\\UiStarter\\UiStarterServiceProvider"
+            ]
+        }
+    }
 }
