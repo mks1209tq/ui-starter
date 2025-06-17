@@ -1,0 +1,3 @@
+<img class="h-8 w-8 rounded-full bg-gray-50" 
+src="{{ Storage::url('profile/avtar.jpg') }}" 
+alt="">
