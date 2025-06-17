@@ -7,10 +7,5 @@
             "Ghayas\\UiStarter\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "Ghayas"
-        }
-    ],
     "require": {}
 }
