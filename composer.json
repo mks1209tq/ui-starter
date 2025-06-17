@@ -7,5 +7,10 @@
             "Mks1209tq\\UiStarter\\": "src/"
         }
     },
+    "authors": [
+        {
+            "name": "Mks1209tq"
+        }
+    ],
     "require": {}
 }
