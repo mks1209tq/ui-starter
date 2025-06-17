@@ -1,0 +1,16 @@
+{
+    "name": "ghayas/ui-starter",
+    "description": "test description",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Ghayas\\UiStarter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ghayas"
+        }
+    ],
+    "require": {}
+}
