@@ -13,8 +13,9 @@ class UiStarterServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/../resources/views' => resource_path('views'),
             __DIR__ . '/../public/images' => public_path('images'),
-            __DIR__ . '/../routes/app1-routes.php' => base_path('routes\apps\app1\app1-routes.php'),
+            __DIR__ . '/../routes/nav-routes.php' => base_path('routes\nav-routes.php'),
             __DIR__ . '/../storage/app/public/profile/avatar.png' => storage_path('app/public/profile/avatar.png'),
+            __DIR__ . '/../app/Http/Controllers/AppController.php' => app_path('Http/Controllers/AppController.php'),
 
         ], 'starter-files');
 

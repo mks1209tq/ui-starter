@@ -21,3 +21,5 @@ Route::get('/documents', function () {
 Route::get('/reports', function () {
     return view('reports.index');
 })->name('reports');
+
+Route::get('/apps', [App\Http\Controllers\AppController::class, 'index'])->name('apps');
